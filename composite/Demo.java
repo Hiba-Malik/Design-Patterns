@@ -21,7 +21,11 @@ public class Demo {
                         new Dot(240, 360, Color.GREEN),
                         new Dot(360, 360, Color.GREEN),
                         new Dot(360, 240, Color.GREEN)
-                )
+                ),
+                
+                new CompoundShape(
+                new Circle(250, 10, 50, Color.RED),
+                new Triangle(new int[]{350, 290, 240},new int[]{90, 40, 90},Color.PINK))
         );
     }
 }
